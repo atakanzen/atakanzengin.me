@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <v-app>
-      <v-main>
-        <v-container fluid>
-          <Me />
-          <v-divider class="mb-4"></v-divider>
-          <Contact />
-        </v-container>
-      </v-main>
+    <v-app dark>
+      <v-row align="center" justify="center">
+        <v-col cols="10" sm="8">
+          <v-main>
+            <v-container>
+              <Me />
+              <v-divider class="mb-4"></v-divider>
+              <Contact />
+            </v-container>
+          </v-main>
+        </v-col>
+      </v-row>
     </v-app>
   </div>
 </template>
@@ -35,12 +39,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  padding: 2em;
+  background-color: white;
 }
 </style>
