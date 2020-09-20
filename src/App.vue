@@ -1,19 +1,26 @@
 <template>
-  <div id="app">
-    <v-app dark>
-      <v-row align="center" justify="center">
-        <v-col cols="10" sm="8">
-          <v-main>
-            <v-container>
-              <Me />
-              <v-divider class="mb-4"></v-divider>
-              <Contact />
-            </v-container>
-          </v-main>
-        </v-col>
-      </v-row>
-    </v-app>
-  </div>
+  <v-app id="vApp">
+    <v-row align="center" justify="center">
+      <v-col cols="10" sm="8">
+        <v-main>
+          <v-container>
+            <toggle-button
+              id="toggle"
+              @change="changeTheme()"
+              :value="false"
+              :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
+              :width="82"
+              :color="{checked: '#303030', unchecked: '#A6A6A6'}"
+            />
+
+            <Me />
+            <v-divider class="mb-4"></v-divider>
+            <Contact />
+          </v-container>
+        </v-main>
+      </v-col>
+    </v-row>
+  </v-app>
 </template>
 
 <script>
@@ -26,9 +33,16 @@ export default {
     Me,
     Contact
   },
-  data: () => ({
-    //
-  })
+  methods: {
+    changeTheme() {
+      document.getElementById("vApp").classList.toggle("theme--dark");
+      document.getElementById("link").classList.toggle("light-text");
+      const dividers = document.getElementsByTagName("hr");
+      dividers.forEach(el => {
+        el.classList.toggle("theme--light");
+      });
+    }
+  }
 };
 </script>
 
@@ -39,7 +53,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-#app {
-  background-color: white;
+
+.light-text {
+  color: #e1e1e1 !important;
+}
+
+#toggle {
+  float: right;
 }
 </style>

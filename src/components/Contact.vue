@@ -38,6 +38,8 @@
                 counter
                 label="Message"
                 required
+                rows="1"
+                auto-grow
               ></v-textarea>
             </v-col>
           </v-row>
@@ -138,3 +140,6 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+</style>

@@ -1,9 +1,5 @@
 <template>
   <article>
-    <a href="#" class="text-subtitle-1" id="projects">Projects</a>
-
-    <v-divider class="mb-4"></v-divider>
-
     <div class="text--primary font-weight-black text-h3" id="name">Atakan Zengin</div>
 
     <br />
@@ -38,14 +34,11 @@
         <br />I believe with hardwork and passion, I'll be able to contribute to our ever-growing technology.
       </p>
 
-      <p
-        class="text-body-1"
-      >If you are curious about my works, don't forget to check my projects blog up above.</p>
-
       <p class="text-body-1">
         Lastly if you have any enquiries, please contact me from
         <a
           href="mailto:atakanzzengin@gmail.com"
+          id="link"
         >my email</a>.
         <br />Or alternatively use the contact button down below.
       </p>
@@ -62,5 +55,8 @@ export default {
 <style scoped>
 article a {
   color: black;
+}
+article {
+  padding: 0;
 }
 </style>
