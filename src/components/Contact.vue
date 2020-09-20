@@ -112,7 +112,7 @@ export default {
         };
 
         const url =
-          "https://c7po6n9mcd.execute-api.eu-central-1.amazonaws.com/sendEmail";
+          "https://lesqlw2ie3.execute-api.eu-central-1.amazonaws.com/sendEmail";
 
         let response = "";
 
