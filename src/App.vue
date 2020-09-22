@@ -8,8 +8,9 @@
             @change="changeTheme()"
             :value="false"
             :speed="250"
+            :margin="4"
             :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
-            :width="85"
+            :width="90"
             :color="{checked: '#303030', unchecked: '#A6A6A6'}"
           />
 
