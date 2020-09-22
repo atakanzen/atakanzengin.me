@@ -61,11 +61,13 @@ article {
   font-size: 1.2rem;
 }
 #name {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1em;
+  margin-top: 0.7em;
 }
 #title {
   font-size: 2rem;
   font-style: italic;
+  line-height: 1em;
 }
 </style>

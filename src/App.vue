@@ -1,27 +1,25 @@
 <template>
   <v-app id="vApp">
-    <v-main>
-      <v-container>
-        <v-row align="center" justify="center">
-          <v-col cols="10" sm="8">
-            <toggle-button
-              id="toggle"
-              @change="changeTheme()"
-              :value="false"
-              :margin="4"
-              :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
-              :width="80"
-              :height="20"
-              :color="{checked: '#303030', unchecked: '#A6A6A6'}"
-            />
+    <v-container class="fill-height">
+      <v-row align="center" justify="center">
+        <v-col cols="10" sm="8">
+          <toggle-button
+            id="toggle"
+            @change="changeTheme()"
+            :value="false"
+            :margin="4"
+            :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
+            :width="82"
+            :height="20"
+            :color="{checked: '#303030', unchecked: '#A6A6A6'}"
+          />
 
-            <Me />
-            <v-divider class="mb-4"></v-divider>
-            <Contact />
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-main>
+          <Me />
+          <v-divider class="mb-4"></v-divider>
+          <Contact />
+        </v-col>
+      </v-row>
+    </v-container>
   </v-app>
 </template>
 
