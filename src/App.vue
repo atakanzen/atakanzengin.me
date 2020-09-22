@@ -7,7 +7,6 @@
             id="toggle"
             @change="changeTheme()"
             :value="false"
-            :margin="5"
             :speed="250"
             :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
             :width="85"
