@@ -7,10 +7,10 @@
             id="toggle"
             @change="changeTheme()"
             :value="false"
-            :margin="4"
+            :margin="5"
+            :speed="250"
             :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
-            :width="82"
-            :height="20"
+            :width="85"
             :color="{checked: '#303030', unchecked: '#A6A6A6'}"
           />
 
