@@ -5,7 +5,7 @@
     </template>
     <v-card>
       <v-card-title>
-        <span class="headline">Send Your Message</span>
+        <span id="head">Send Your Message</span>
       </v-card-title>
       <v-card-text>
         <v-container>
@@ -13,7 +13,7 @@
             <v-col cols="12">
               <v-text-field
                 v-model="name"
-                label="Your Name"
+                label="Name"
                 :error-messages="nameErrors"
                 :counter="20"
                 required
@@ -47,8 +47,8 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn color="black darken-1" text @click="dialog = false">Cancel</v-btn>
-        <v-btn color="black darken-1" text @click="sendEmail">Send</v-btn>
+        <v-btn color="black darken-2" text @click="dialog = false">Cancel</v-btn>
+        <v-btn color="black darken-2" text @click="sendEmail">Send</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -142,4 +142,8 @@ export default {
 </script>
 
 <style scoped>
+#head {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
 </style>
