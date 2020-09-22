@@ -8,12 +8,10 @@
             @change="changeTheme()"
             :value="false"
             :speed="250"
-            :margin="4"
-            :labels="{checked: 'Dark Mode', unchecked: 'Light Mode'}"
-            :width="90"
+            :labels="{checked: 'Dark', unchecked: 'Light'}"
+            :width="60"
             :color="{checked: '#303030', unchecked: '#A6A6A6'}"
           />
-
           <Me />
           <v-divider class="mb-4"></v-divider>
           <Contact />
