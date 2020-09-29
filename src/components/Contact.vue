@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="dialog" persistent max-width="600px">
     <template v-slot:activator="{ on }">
-      <v-btn dark v-on="on">Contact</v-btn>
+      <v-btn dark id="contact" v-on="on">Contact</v-btn>
     </template>
     <v-card>
       <v-card-title>
@@ -47,7 +47,9 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn color="black darken-2" text @click="dialog = false">Cancel</v-btn>
+        <v-btn color="black darken-2" text @click="dialog = false"
+          >Cancel</v-btn
+        >
         <v-btn color="black darken-2" text @click="sendEmail">Send</v-btn>
       </v-card-actions>
     </v-card>
