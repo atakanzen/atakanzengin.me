@@ -34,7 +34,10 @@ export default {
   methods: {
     changeTheme() {
       document.getElementById("vApp").classList.toggle("theme--dark");
-      document.getElementById("link").classList.toggle("light-text");
+      const links = document.getElementsByTagName("a");
+      links.forEach(el => {
+        el.classList.toggle("light-text");
+      })
       document.querySelector("body").classList.toggle("dark-bg");
       const dividers = document.getElementsByTagName("hr");
       dividers.forEach(el => {

@@ -10,12 +10,13 @@
 
   <section id="body">
     <p>
-      I'm a full-stack developer and a senior university student
-      <br />in Istanbul, Turkey. Very passionate about learning and improving.
+      I'm a developer and a senior university student
+      <br />in Istanbul, Turkey. Currently working at <a id="link" href="https://www.modanisa.com" target="_blank" rel="noopener noreferrer">Modanisa</a>.
+      <br>Very passionate about learning and improving as well.
     </p>
 
     <p>
-      Currently focusing on Web development, but I'm interested
+      Focusing on Web development, but I'm interested
       <br />in Machine Learning and AI as well. Hopefully I'll add these
       <br />fields to my knowledge pot in the near future.
     </p>
