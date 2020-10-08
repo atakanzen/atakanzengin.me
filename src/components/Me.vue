@@ -17,7 +17,7 @@
 
     <p>
       Focusing on Web development, but I'm interested
-      <br />in Machine Learning and AI as well. Hopefully I'll add these
+      <br />in Machine Learning and AI too. Hopefully I'll add these
       <br />fields to my knowledge pot in the near future.
     </p>
 
@@ -25,12 +25,11 @@
       My field in academy is Translation and Interpretation in English.
       <br />So natural languages are one of my interests as well
       <br />as programming languages. Apart from this, I'm
-      <br />also interested in any form of Art and Music.
+      <br />also interested in any form of Art and Music, literally.
     </p>
 
     <p>
-      One of my goals is to find myself inside the technology
-      <br />industry, and create new solutions for the people.
+      I always want to create new solutions for the people.
       <br />I believe with hardwork and passion,
       <br />I'll be able to contribute to our ever-growing technology.
     </p>
