@@ -11,7 +11,7 @@
   <section id="body">
     <p>
       I'm a developer and a senior university student
-      <br />in Istanbul, Turkey. Currently working at <a id="link" href="https://www.modanisa.com" target="_blank" rel="noopener noreferrer">Modanisa</a>.
+      <br />in Istanbul, Turkey. Currently working at an e-commerce platform.
       <br>Very passionate about learning and improving as well.
     </p>
 
