@@ -16,8 +16,8 @@
     </p>
 
     <p>
-      Focusing on Web development, but I'm interested
-      <br />in 3D CG and animation as well. Hopefully I'll be sharing
+      Focusing on Web development, but I'm also interested
+      <br />in 3D CG and animation. Hopefully I'll be sharing
       <br />my works in the near future.
     </p>
 
@@ -29,15 +29,15 @@
     </p>
 
     <p>
-      I always want to create the bes solutions and products for the people.
+      I always want to create the best solutions and products for the people.
       <br />I believe with hardwork and passion,
       <br />I'll be able to contribute to our ever-growing technology,
-      <br />and create immersive works.
+      <br />and create immersive and unique works.
     </p>
 
     <p>
-      Lastly if you have any enquiries, please contact me from the contact button down below.
-      <br />Or alternatively from <a href="mailto:atakanzzengin@gmail.com" id="link">my email</a>. 
+      Lastly if you have any enquiries, please contact me from the button down below,
+      <br />or alternatively from <a href="mailto:atakanzzengin@gmail.com" id="link">my email</a>. 
     </p>
   </section>
 </article>
