@@ -30,14 +30,13 @@
 
     <p>
       I always want to create the best solutions and products for the people.
-      <br />I believe with hardwork and passion,
-      <br />I'll be able to contribute to our ever-growing technology,
-      <br />and create immersive and unique works.
+      <br />I believe with hardwork and passion, I'll be able to contribute
+      <br />to our ever-growing technology, and create immersive and unique works.
     </p>
 
     <p>
-      Lastly if you have any enquiries, please contact me from the button down below,
-      <br />or alternatively from <a href="mailto:atakanzzengin@gmail.com" id="link">my email</a>. 
+      Lastly if you have any enquiries, please contact me from
+      <br />the button down below, or alternatively from <a href="mailto:atakanzzengin@gmail.com" id="link">my email</a>. 
     </p>
   </section>
 </article>
