@@ -17,8 +17,8 @@
 
     <p>
       Focusing on Web development, but I'm interested
-      <br />in Machine Learning and AI too. Hopefully I'll add these
-      <br />fields to my knowledge pot in the near future.
+      <br />in 3D CG and animation as well. Hopefully I'll be sharing
+      <br />my works in the near future.
     </p>
 
     <p>
@@ -29,15 +29,15 @@
     </p>
 
     <p>
-      I always want to create new solutions for the people.
+      I always want to create the bes solutions and products for the people.
       <br />I believe with hardwork and passion,
-      <br />I'll be able to contribute to our ever-growing technology.
+      <br />I'll be able to contribute to our ever-growing technology,
+      <br />and create immersive works.
     </p>
 
     <p>
-      Lastly if you have any enquiries, please contact me from
-      <a href="mailto:atakanzzengin@gmail.com" id="link">my email</a>.
-      <br />Or alternatively use the contact button down below.
+      Lastly if you have any enquiries, please contact me from the contact button down below.
+      <br />Or alternatively from <a href="mailto:atakanzzengin@gmail.com" id="link">my email</a>. 
     </p>
   </section>
 </article>
