@@ -10,7 +10,7 @@
 
   <section id="body">
     <p>
-      I'm a developer and a senior university student
+      I'm a software developer and a senior university student
       <br />in Istanbul, Turkey. Currently working at an e-commerce platform.
       <br>Very passionate about learning and improving as well.
     </p>
